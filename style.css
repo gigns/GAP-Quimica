@@ -81,6 +81,22 @@
     border-radius: 10px;
 }
 
+/* PRODUTOS: */
+.carrosel-produtos {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.titulo-produtos {
+    position: absolute;
+    bottom: 150px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
 @media only screen and (max-width: 1123px) {
     #banner-index {
         height: 500px;
