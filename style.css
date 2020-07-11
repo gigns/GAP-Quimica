@@ -1,0 +1,92 @@
+/* INDEX */
+.navbar-tema {
+    background-color: #006600;
+    font-size: 26px;
+}
+
+.navbar-cor {
+    color: white;
+}
+
+#banner-index {
+    width: 100%;
+    height: 500px;
+}
+
+#logo-ypf {
+    width: 200px;
+    float: left;
+}
+
+#logo-china {
+    width: 200px;
+    float: left;
+}
+
+#logo-qci {
+    width: 200px;
+    float: left;
+}
+
+#imagem-distribuidor {
+    width: 50%;
+    height: 250px;
+}
+
+#imagem-qualidade {
+    display: inline-block;
+    position: relative;
+}
+
+#texto-qualidade {
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    background-color: black;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+#banner-qualidade {
+    width: 100%;
+    height: 300px;
+}
+
+#logo-iso {
+    width: 200px;
+}
+
+.cor-bg-footer {
+    background-color: #003300;
+}
+
+/* EMPRESA */
+#bg-imagem {
+    background-image: url(img/bg-empresa.jpg);
+    background-size: cover;
+}
+
+.tamanho-carrosel {
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+
+#logo-gap {
+    width: 30%;
+    margin: 3% 10%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1123px) {
+    #banner-index {
+        height: 500px;
+        width: 100%
+    }
+    #mapa-contato {
+        width: 300px;
+    }
+}
