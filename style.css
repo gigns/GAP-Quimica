@@ -45,6 +45,11 @@
     margin-right: 20px;
 }
 
+#fonte-lista-ypf {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+
 #fonte-segmentos {
     font-family: 'Varela Round', sans-serif;
     color: #008000;
