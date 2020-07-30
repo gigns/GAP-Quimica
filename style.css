@@ -24,6 +24,32 @@
     transform: translate3d(0,0,0);
 }
 
+#sobre-fonte {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+}
+
+.container-sobre-1 {
+    width: 100%;
+}
+
+#trinta-imagem {
+    float: right;
+    height: 80px;
+    margin-left: 30px;
+}
+
+#partner-vector {
+    float: left;
+    height: 80px;
+    margin-right: 20px;
+}
+
+#fonte-segmentos {
+    font-family: 'Varela Round', sans-serif;
+    color: #008000;
+}
+
 #logo-ypf {
     width: 200px;
     float: left;
@@ -37,6 +63,12 @@
 #logo-qci {
     width: 200px;
     float: left;
+}
+
+#missao-fonte {
+    font-size: 50px;
+    color: green;
+    font-family: 'Varela Round', sans-serif;
 }
 
 #imagem-distribuidor {

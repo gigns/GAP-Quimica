@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<body>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>GAP Química</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<head>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173980377-1"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'UA-173980377-1');
+			</script>
+
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>GAP Química</title>
+			<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
 
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark navbar-tema">
@@ -36,11 +49,50 @@
 		<img id="banner-index" src="img/banner-home.jpg" alt="">
 
 		<main>
-			<section class="container text-center mt-5 mb-5 p-5 bg-light">
-				<h3 class="pb-3">SOBRE NÓS</h3>
-				<p class="text-justify" style="font-family: Arial, Helvetica, sans-serif;">A <strong>GAP Química</strong> foi fundada no ano de 1992, como uma distribuidora da empresa Oxiteno S.A. do grupo Ultra por ex-gestores da empresa, com o objetivo de atuar em mercados de pequenos e médios volumes, nos diversos segmentos industriais brasileiros.</p>
-				<p style="font-family: Arial, Helvetica, sans-serif;">A <strong>GAP Química</strong> é uma empresa já solidificada e referência no mercado de produtos químicos, com diversos prêmios concebidos pela empresa Oxiteno.</p>
-				<p style="font-family: Arial, Helvetica, sans-serif;">Atuamos nas seguintes áreas de mercado:<br><strong>Alimentício, Agrícola, Cerâmica, Cosméticos, Couros, Domissanitários, Lavanderia, Papel e Celulose, Sucro Alcool, Têxtil, Tintas e Vernizes.</strong></p>
+			<section class="container text-center mt-5 mb-5 p-5">
+				<h3 id="sobre-fonte" class="pb-3"><strong>SOBRE NÓS</strong></h3>
+				<article class="container-sobre-1">
+					<img id="trinta-imagem" src="img/trinta-imagem.PNG" alt="30 anos">
+					<figcaption class="text-justify mb-5" style="font-family: Arial, Helvetica, sans-serif;">A <strong>GAP Química</strong> está a mais de 30 anos no ramo industrial, reconhecida nacionalmente e internacionalmente pela qualidade de seus produtos, referência no mercado de produtos químicos, um dos nossos princípios é a excelência no atendimento e garantir a qualidade dos nossos produtos que passam por rigorosos processos de produção.</figcaption>
+					<img class="rounded" id="partner-vector" src="img/partner-vector.PNG" alt="Parceria entre empresas">
+					<figcaption class="mb-3 text-justify" style="font-family: Arial, Helvetica, sans-serif;">Possuímos distribuição exclusiva de alguns parceiros em especial da empresa <strong>YPF</strong> aonde já estamos atuando em conjunto há mais de x anos, trabalhando com produtos reconhecidos no mercado nacional.</figcaption>
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary mb-5" data-toggle="modal" data-target="#exampleModal">
+							Ver produtos
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Produtos YPF</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<ul>
+											<li>PIB 10</li>
+											<li>PIB 30</li>
+											<li>PIB 150</li>
+											<li>PIB 200</li>
+										</ul>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+										<a href="contato.html"><button type="button" class="btn btn-primary">Entrar em contato</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+
+				<div class="pt-4 text-justify">
+					<p style="font-family: Arial, Helvetica, sans-serif;">Trabalhamos com uma extensa variedade de produtos em diversos segmentos e, também temos produtos de produção própria. <br>Atuamos nas seguintes áreas de mercado:</p>
+					<p style="font-family: Arial, Helvetica, sans-serif;"></p>
+					<p id="fonte-segmentos"><strong>Alimentício, Agrícola, Cerâmica, Cosméticos, Couros, Domissanitários, Lavanderia, Papel e Celulose, Sucro Alcool, Têxtil, Tintas e Vernizes.</bdi></strong></p>
+				</div>
 			</section>
 
 			<hr class="container">
@@ -62,10 +114,10 @@
 
 			<hr class="container">
 
-			<section class="container mt-5 mb-5 p-3 bg-light anime">
+			<section class="container mt-5 mb-5 p-3 anime">
 				<div class="d-flex align-items-center m-4" style="font-family: Arial, Helvetica, sans-serif;">
 					<img class="pr-5 img-fluid" id="imagem-distribuidor" src="img/imagem-distribuidor.jpg" alt="Desenho de pessoa segurando uma caixa">
-					<h2>Missão do Distribuidor</h2>
+					<h2><bdi id="missao-fonte">Missão</bdi> do Distribuidor</h2>
 				</div>
 				<div style="font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
 					<p>O <strong>Distribuidor</strong> é o principal fornecedor de produtos Químicos e Petroquímicos para a pequena e média indústria. Fornece produtos para todas as regiões geográficas do país independentemente das quantidades - de um tambor ao caminhão tanque.</p>
