@@ -6,6 +6,7 @@
 
 .navbar-cor {
     color: white;
+    font-family: 'Varela Round', sans-serif;
 }
 
 #banner-index {
@@ -138,6 +139,7 @@
 }
 
 .titulo-produtos {
+    display: inline-block;
     position: absolute;
     bottom: 150px;
     background-color: black;
